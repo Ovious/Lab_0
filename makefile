@@ -1,6 +1,3 @@
-CC= g++
-CFLAGS= -Wall -o
-
 all: 
-	$(CC) $(CFLAGS) main.cpp
+	g++  main.cpp -o -Wall
 
