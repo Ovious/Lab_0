@@ -1,5 +1,5 @@
 CC= g++
-CFLAGS= -o
+CFLAGS= -Wall -o
 
 all: 
 	$(CC) $(CFLAGS) main.cpp
